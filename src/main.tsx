@@ -3,7 +3,7 @@ import { ConfigProvider } from 'antd';
 import zhCN from 'antd/es/locale-provider/zh_CN';
 import {Provider} from 'react-redux'
 import { HashRouter } from 'react-router-dom';
-import { store } from './store';
+import store from './store';
 import App from './App';
 
 ReactDOM.render(
