@@ -1,6 +1,5 @@
-import React from 'react';
+import './assets/styles/base.less';
 import logo from './logo.svg';
-import './App.css';
 
 function App() {
   return (

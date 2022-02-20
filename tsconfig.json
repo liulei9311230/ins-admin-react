@@ -1,26 +1,32 @@
 {
+  "extends": "./node_modules/react-redux-typescript-scripts/tsconfig.json",
   "compilerOptions": {
     "target": "es5",
     "lib": [
       "dom",
       "dom.iterable",
-      "esnext"
+      "esnext",
+      "es2015",
+      "es2016",
+      "es2017"
     ],
     "allowJs": true,
+    "sourceMap": true,
+    "jsx": "react-jsx", 
+    "outDir": "./dist",
+    "strict": true,
     "skipLibCheck": true,
     "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
-    "strict": true,
     "forceConsistentCasingInFileNames": true,
     "noFallthroughCasesInSwitch": true,
     "module": "esnext",
     "moduleResolution": "node",
     "resolveJsonModule": true,
-    "isolatedModules": true,
-    "noEmit": true,
-    "jsx": "react-jsx"
+    "isolatedModules": false,
+    "noEmit": false,
   },
   "include": [
-    "src"
+    "./src"
   ]
 }
