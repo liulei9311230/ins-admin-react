@@ -184,7 +184,7 @@ function createAndDownloadFile(res) {
     if (filename) {
       let a = document.createElement('a');
       if (typeof a.download === 'undefined') {
-        window.location = downloadUrl;
+        window.location.href = downloadUrl;
       } else {
         a.style.display = 'none';
         a.href = downloadUrl;

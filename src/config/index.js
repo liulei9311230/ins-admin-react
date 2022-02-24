@@ -4,9 +4,7 @@
  *  beta:测试版地址
  *  production:线上版地址
  */
-import BaseConfig from './base'
-
-const requirePath = /^beta.*/.test(process.env.CODE_ENV) ? 'beta' : process.env.CODE_ENV
-let Config = require('./' + requirePath)
-Object.assign(BaseConfig, Config.default)
-export default BaseConfig
+import BaseConfig from './base';
+var Config = require('./' + process.env.CODE_ENV);
+Object.assign(BaseConfig, Config.default);
+export default BaseConfig;

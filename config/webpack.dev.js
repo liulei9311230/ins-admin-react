@@ -48,14 +48,14 @@ module.exports = merge(baseConfig, {
   },
   devServer: {
     historyApiFallback: true,
-    port: 8980,
+    port: 8888,
     publicPath: '/',
     // 热替换
     hot: true,
     open: true,
     overlay: false,
-    // host: 'web.amh-group.com',
-    https: true
+    host: 'web.amh-group.com',
+    // https: true
   },
   stats: {
     colors: true,

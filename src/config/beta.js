@@ -1,23 +1,11 @@
-/**
- * Created with WebStorm.
- * User: stoneship
- * Email:258137678@qq.com
- * Date: 16/5/7
- * Time: 下午3:13
- * To change this template use File | Settings | File Templates.
- */
 let BaseConfig = {
-  host: '//qa-boss.mbib.com.cn/',
-  ssoHost: '//qa-sso.mbib.com.cn/',
-  pmHost: '//qa-pm.amh-group.com/',
-  homeHost: '//qa-home.amh-group.com/',
-  customerHost: '//qa-boss.amh-group.com/',
-  ymm56: '//qa.ymm56.com/', // ymm56
-  caseHost: '//qa-case.amh-group.com/',
-  pscHost: '//qa-psc.amh-group.com/',
-  thaadhost: '//qa-thaad.amh-group.com/',
+  // 开发模式配置
+  host: '//qa-sec-xuanwu-comm.amh-group.com/',
+  host2: '//qa-sec-xuanwu.amh-group.com/', // 接口访问配置, app审计，sql注入，xss, jar包检测
+  host3: '//qa-sec-xuanwu-apis.amh-group.com', // 应用安全总览
+  ssoHost: '//qa-sso.amh-group.com/',
+  pmHost: '//qa-pm.amh-group.com/', // sso登录地址
   debug: true,
   develop: false
-}
-export default BaseConfig
-
+};
+export default BaseConfig;

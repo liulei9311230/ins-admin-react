@@ -130,7 +130,7 @@ module.exports = {
       '@src': APP_PATH,
       '@pages': APP_PATH + '/pages',
       '@router': APP_PATH + '/router',
-      mobx: ROOT_PATH + '/node_modules/mobx/lib/mobx.es6.js',
+      // '@mobx': ROOT_PATH + '/node_modules/mobx/lib/mobx.es6.js',
       '@BuildCommonTask':
         APP_PATH + '/pages/appSecurity/jarPkgDetect/components/BuildTask',
       '@SimpleConfirmDialog':

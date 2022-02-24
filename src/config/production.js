@@ -7,17 +7,13 @@
  * To change this template use File | Settings | File Templates.
  */
 let BaseConfig = {
-  host: '//boss.mbib.com.cn/',
-  ssoHost: '//sso.mbib.com.cn/',
-  pmHost: '//pm.amh-group.com/',
-  homeHost: '//home.amh-group.com/',
-  caseHost: '//case.amh-group.com/',
-  customerHost: '//boss.amh-group.com/',
-  pscHost: '//psc.ymamh-groupmoa.com/',
+  host: '//sec-xuanwu-comm.amh-group.com/',
+  host2: '//sec-xuanwu.amh-group.com/', // 接口访问配置, app审计，sql注入，xss, jar包检测
+  host3: '//sec-xuanwu-apis.amh-group.com', // 应用安全总览
+  ssoHost: '//sso.amh-group.com/',
   hostTrack: '//log.ymm56.com/mlog',
-  ymm56: '//www.ymm56.com/', // ymm56
-  thaadhost: '//thaad.amh-group.com/',
+  pmHost: '//pm.amh-group.com/', // sso登录地址
   debug: false,
   develop: false
-}
-export default BaseConfig
+};
+export default BaseConfig;
