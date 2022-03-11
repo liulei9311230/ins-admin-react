@@ -11,6 +11,5 @@
     <script src="//<%= htmlWebpackPlugin.options.evn %>static.ymm56.com/common-lib/babel-polyfill/6.20.0/polyfill.min.js"></script>
     <script src="//<%= htmlWebpackPlugin.options.evn %>static.ymm56.com/common-lib/area/default/area.normalized.min.js"></script>
     <script src="//<%= htmlWebpackPlugin.options.evn %>static.ymm56.com/common-lib/watermark/v1.0.1/watermark.js"></script>
-    <script src="//<%= htmlWebpackPlugin.options.evn %>static.ymm56.com/lib-track/0.3.0/index.js"></script>
   </body>
 </html>
