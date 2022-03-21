@@ -10,11 +10,10 @@
     <script>
       window.addEventListener('message', function() {
       const event = window.event || event
-      if (event.origin !== "http://web.amh-group.com") {
+      if (event.origin !== "http://web.ll.com") {
         throw '您的地址存在跨域问题'
         return
       }
-      console.log(event.data)
     }, false)
     </script>
   </body>

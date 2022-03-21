@@ -1,7 +1,7 @@
 /*
  * @Author: lei.liu
  * @Date: 2022-03-09 17:44:02
- * @LastEditTime: 2022-03-10 19:49:49
+ * @LastEditTime: 2022-03-13 12:29:42
  * @Description:
  * @FilePath: /ins-admin-react/src/components/layout/MenuList.tsx
  */
@@ -12,7 +12,6 @@ const { Sider } = Layout;
 const { SubMenu } = Menu;
 
 const MenuList = props => {
-  console.log('-=-=-', props);
   const { hasPowerDataResult: menuList } = props;
 
   const menuTag = list => {
@@ -36,7 +35,7 @@ const MenuList = props => {
   return (
     <Sider className="main-sider" collapsible trigger={null}>
       <div className="ant-pro-sider-menu-logo">
-        <a href="#/">
+        <a href="#/home">
           <h1>保险系统</h1>
         </a>
       </div>

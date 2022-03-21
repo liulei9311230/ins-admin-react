@@ -1,3 +1,7 @@
+/*
+ * @Author: lei.liu
+ * @Date: 2022-02-20 17:01:21
+ */
 const path = require('path');
 const {
   ROOT_PATH,
@@ -54,7 +58,7 @@ module.exports = merge(baseConfig, {
     hot: true,
     open: true,
     overlay: false,
-    host: 'web.amh-group.com',
+    host: 'web.mbib.com.cn'
     // https: true
   },
   stats: {
@@ -84,8 +88,8 @@ module.exports = merge(baseConfig, {
     new MiniCssExtractPlugin({
       // Options similar to the same options in webpackOptions.output
       // both options are optional
-      filename: 'asset/style/[name].css',
-      chunkFilename: 'asset/style/[name].chunk.css'
+      filename: '[name].css',
+      chunkFilename: '[id].chunk.css'
     })
   ]
 });

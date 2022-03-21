@@ -1,10 +1,13 @@
 let BaseConfig = {
-  // 开发模式配置
-  host: '//qa-sec-xuanwu-comm.amh-group.com/',
-  host2: '//qa-sec-xuanwu.amh-group.com/', // 接口访问配置, app审计，sql注入，xss, jar包检测
-  host3: '//qa-sec-xuanwu-apis.amh-group.com', // 应用安全总览
-  ssoHost: '//qa-sso.amh-group.com/',
-  pmHost: '//qa-pm.amh-group.com/', // sso登录地址
+  host: '//qa-boss.mbib.com.cn/',
+  ssoHost: '//qa-sso.mbib.com.cn/',
+  pmHost: '//qa-pm.ll.com/',
+  homeHost: '//qa-home.ll.com/',
+  customerHost: '//qa-boss.ll.com/',
+  ymm56: '//qa.ymm56.com/', // ymm56
+  caseHost: '//qa-case.ll.com/',
+  pscHost: '//qa-psc.ll.com/',
+  thaadhost: '//qa-thaad.ll.com/',
   debug: true,
   develop: false
 };

@@ -7,12 +7,16 @@
  * To change this template use File | Settings | File Templates.
  */
 let BaseConfig = {
-  host: '//sec-xuanwu-comm.amh-group.com/',
-  host2: '//sec-xuanwu.amh-group.com/', // 接口访问配置, app审计，sql注入，xss, jar包检测
-  host3: '//sec-xuanwu-apis.amh-group.com', // 应用安全总览
-  ssoHost: '//sso.amh-group.com/',
+  host: '//boss.mbib.com.cn/',
+  ssoHost: '//sso.mbib.com.cn/',
+  pmHost: '//pm.ll.com/',
+  homeHost: '//home.ll.com/',
+  caseHost: '//case.ll.com/',
+  customerHost: '//boss.ll.com/',
+  pscHost: '//psc.ymamh-groupmoa.com/',
   hostTrack: '//log.ymm56.com/mlog',
-  pmHost: '//pm.amh-group.com/', // sso登录地址
+  ymm56: '//www.ymm56.com/', // ymm56
+  thaadhost: '//thaad.ll.com/',
   debug: false,
   develop: false
 };

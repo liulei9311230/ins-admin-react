@@ -1,7 +1,7 @@
 /*
  * @Author: lei.liu
  * @Date: 2022-03-09 15:27:24
- * @LastEditTime: 2022-03-10 19:33:08
+ * @LastEditTime: 2022-03-13 20:43:00
  * @Description:
  * @FilePath: /ins-admin-react/src/store/actions/powerControlAction.ts
  */
@@ -32,13 +32,18 @@ export const setPowerControl = (dispatch: Dispatch, initFun: () => void) => {
         const powerUrl = getPowerUrl(hasPowerDataResult);
         // 获取当用工程所配置的所有href地址集合
         const allPowerUrl = getPowerUrl(allPowerDataResult);
-        // 初始化左侧菜单路存存到vux中
+        // 权限code
+        const powerListFlat = (powerList || []).map(
+          v => (v && v.permissionCode) || v
+        );
+        // 初始化左侧菜单路存存到redux中
         dispatch({
           type: PowerControlType.SET,
           data: {
             powerList,
             powerUrl,
             allPowerUrl,
+            powerListFlat,
             hasPowerDataResult
           }
         });
@@ -85,4 +90,3 @@ const getPowerUrl = data => {
   })(data);
   return result.concat(['home', 'noPage', 'noPowerPage']);
 };
-

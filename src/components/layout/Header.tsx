@@ -1,7 +1,7 @@
 /*
  * @Author: lei.liu
  * @Date: 2022-03-10 15:05:49
- * @LastEditTime: 2022-03-10 20:22:47
+ * @LastEditTime: 2022-03-13 12:28:54
  * @Description:
  * @FilePath: /ins-admin-react/src/components/layout/Header.tsx
  */
@@ -57,7 +57,6 @@ const MyHeader = props => {
       </Menu.Item>
     </Menu>
   );
-  console.log(props, '][====');
   const { name, jobNumber } = props;
   return (
     <Header className="main-header" style={{ background: '#fff', padding: 0 }}>
