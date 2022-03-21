@@ -8,8 +8,8 @@
   <body>
     <div id="app" ></div>
     <script src="//api.map.baidu.com/getscript?v=3.0&ak=P6CGW7MPbc6ux1PF4TIvp1nG&services=&t=20151113040005&s=1"></script>
-    <script src="//<%= htmlWebpackPlugin.options.evn %>static.ymm56.com/common-lib/babel-polyfill/6.20.0/polyfill.min.js"></script>
-    <script src="//<%= htmlWebpackPlugin.options.evn %>static.ymm56.com/common-lib/area/default/area.normalized.min.js"></script>
-    <script src="//<%= htmlWebpackPlugin.options.evn %>static.ymm56.com/common-lib/watermark/v1.0.1/watermark.js"></script>
+    <script src="//<%= htmlWebpackPlugin.options.evn %>static.LL.com/common-lib/babel-polyfill/6.20.0/polyfill.min.js"></script>
+    <script src="//<%= htmlWebpackPlugin.options.evn %>static.LL.com/common-lib/area/default/area.normalized.min.js"></script>
+    <script src="//<%= htmlWebpackPlugin.options.evn %>static.LL.com/common-lib/watermark/v1.0.1/watermark.js"></script>
   </body>
 </html>

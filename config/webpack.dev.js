@@ -58,7 +58,7 @@ module.exports = merge(baseConfig, {
     hot: true,
     open: true,
     overlay: false,
-    host: 'web.mbib.com.cn'
+    host: 'web.LL.com.cn'
     // https: true
   },
   stats: {
